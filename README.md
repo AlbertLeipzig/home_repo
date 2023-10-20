@@ -1,7 +1,7 @@
 ## Home Page
 
-- represent one product every category (with a link to the category page)
-- clean, format and co-relate the data before representing it
+- [x]  represent one product every category (with a link to the category page)
+- [x] clean, format and co-relate the data before representing it
 
 ## Category Page
 

@@ -1,12 +1,12 @@
-{
-  "Wood": "#8B4513",
-  "Metal": "#848789",
-  "Leather": "#654321",
-  "Fabric": "#6B8E23",
-  "Glass": "#B0E0E6",
-  "Marble": "#A52A2A",
-  "Concrete": "#D2B48C",
-  "Acrylic": "#7FFFD4",
-  "Bamboo": "#8DB600",
-  "Rattan": "#CDB48B"
-}
+[
+  "Wood",
+  "Metal",
+  "Leather",
+  "Fabric",
+  "Glass",
+  "Marble",
+  "Concrete",
+  "Acrylic",
+  "Bamboo",
+  "Rattan"
+]

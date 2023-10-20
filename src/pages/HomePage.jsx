@@ -1,14 +1,20 @@
 import productsData from '../localData/productsData.json';
+import {
+  cleanSingleProduct,
+  cleanAllProducts,
+} from '../utils/cleanSingleProduct.jsx';
+
+const cleanData = cleanAllProducts(productsData);
+
 export const HomePage = () => {
   return (
     <div className="home-page">
-      {/* `${productsData.map(data => <ul><li>${data.name}</li></ul>)}` */}
       <ul>
-        {productsData.map((data) => (
+        {cleanData.map((data) => (
           <li key={data.productId}>
             <div>
               <h3>{data.name}</h3>
-              <p>{data.description.slice(0, 10).padEnd(13, '.')}</p>
+              <p>{data.description.slice(0, 10)}</p>
               <span>{data.price} €</span>
               <p>{data.category}</p>
               <p>{data.manufacturer}</p>
